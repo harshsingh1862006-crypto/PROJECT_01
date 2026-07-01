@@ -47,15 +47,21 @@ open the terminal and run
 
 npm install
 
-##Step 2
--Download and install PostgreSQL and pgAdmin4
+## Step 2
+Download and install PostgreSQL and pgAdmin4
 
 ## Step 3
-Run: npm run db:generate
-     npm run db:push
-- this generates the Database and needed tables
+Run: 
+```bash
+npm run db:generate
+npm run db:push
+```
+this generates the Database and needed tables
 
 ## Step 4
--This is the final step to Build and Start the website on http://localhost:3000/
-Run: npm run build
-     npm run start
+This is the final step to Build and Start the website on http://localhost:3000/
+Run: 
+```bash
+npm run build
+npm run start
+```
